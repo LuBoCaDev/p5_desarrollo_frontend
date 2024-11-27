@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sessionController(sessionContainer)
   adsController(adsContainer)
+
+
+  
   const { showNotification } = notificationController(notificationsContainer)
 
   adsContainer.addEventListener("loading-ads-info", (event) => {

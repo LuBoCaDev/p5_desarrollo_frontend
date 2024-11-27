@@ -1,15 +1,23 @@
-// cálculo del html que vamos a mostrar al usuario
-
 export const buildAd = (ad) => {
   const newAd = document.createElement('a');
   newAd.setAttribute("href", `/ad-detail.html?id=${ad.id}`);
-  const createdAt = new Date(ad.updatedAt)
+
+  const createdAt = new Date(ad.updatedAt);
+  const image = ad.image ? `<img src="${ad.image}" alt="Imagen del producto" />` : ''; 
+  const price = ad.price ? `<span>Precio: ${ad.price}€</span>` : ''; 
+  const type = ad.type ? `<span>${ad.type}</span>` : '';  // compra o venta
+
   newAd.innerHTML = `
     <div>
-      <span>usuario: ${ad.user.username} - ${createdAt.toLocaleDateString()}</span>
+      ${image}
+      <h3>${ad.name}</h3>
+      <span>Usuario: ${ad.user.username} - ${createdAt.toLocaleDateString()}</span>
       <p>${ad.message}</p>
+      ${price}
+      ${type}
     </div>
   `;
+  
   return newAd;
 }
 

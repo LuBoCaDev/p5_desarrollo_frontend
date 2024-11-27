@@ -1,9 +1,7 @@
-// nexo de unión entre el modelo y la vista
-
 import { getAds } from "./ads-model.js";
-import { buildAd, buildEmptyAdList } from "./ads-view.js";
+import { buildAd, buildEmptyAdsList } from "./ads-view.js";
 
-function drawAds(ads, adsContainer) {
+function drawAds(ads, adsContainer) { // dinujo los anuncios de los articulos
   if(!ads.length) {
     adsContainer.innerHTML = buildEmptyAdsList();
   } else {
@@ -14,6 +12,8 @@ function drawAds(ads, adsContainer) {
   }
 }
 
+
+
 function fireEvent(message, type, element) {
   const customEvent = new CustomEvent("loading-ads-info", {
     detail: {
@@ -23,6 +23,8 @@ function fireEvent(message, type, element) {
   });
   element.dispatchEvent(customEvent);
 }
+
+
 
 export async function adsController(adsContainer) {
   const spinner = document.querySelector('.spinner')
