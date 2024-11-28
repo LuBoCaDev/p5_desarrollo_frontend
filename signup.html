@@ -3,16 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registro</title>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./notifications/notification-style.css" />
+
   </head>
+
+
   <body>
-    <form>
-      <label for="user-mail">mail</label>
+    <form action="#">
+      <h2>SIGN UP</h2>
+      <label for="user-mail">Email</label>
       <input type="mail" id="user-mail" name="user-mail" required />
-
+  
       <br />
-
-      <label for="password">password</label>
+  
+      <label for="password">Password</label>
       <input
         type="password"
         id="password"
@@ -20,10 +25,10 @@
         required
         minlength="4"
       />
-
+  
       <br />
-
-      <label for="password-confirm">confirm password</label>
+  
+      <label for="password-confirm">Confirm password</label>
       <input
         type="password"
         id="password-confirm"
@@ -31,10 +36,15 @@
         required
         minlength="4"
       />
-
-      <button type="submit">Crear usuario</button>
+  
+      <br />
+  
+      <button type="submit">Create user</button>
     </form>
-
+  
+    <section class="notifications-container"></section> <!-- Añadido -->
+  
     <script type="module" src="./signup.js"></script>
   </body>
+  
 </html>
