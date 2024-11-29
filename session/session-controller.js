@@ -1,16 +1,17 @@
-import { isUserLoggedIn } from "../utils/auth.js";
 import { buildAuthorizedSession, buildUnauthorizedSession } from "./session-view.js";
 
 export function sessionController(sessionContainer) {
+  const userLoggedIn = localStorage.getItem('userToken');
 
-  if (isUserLoggedIn()) {
+  if (userLoggedIn) {
     sessionContainer.innerHTML = buildAuthorizedSession();
-    const closeSessionButton = sessionContainer.querySelector("button")
-    closeSessionButton.addEventListener("click", () => {
-      localStorage.removeItem("jwt")
-      sessionController(sessionContainer)
-    })
+    const logoutButton = sessionContainer.querySelector('button');
+    
+    logoutButton.addEventListener('click', () => {
+      localStorage.removeItem('userToken'); 
+      location.reload();
+    });
   } else {
-    sessionContainer.innerHTML = buildUnauthorizedSession()
+    sessionContainer.innerHTML = buildUnauthorizedSession();
   }
 }

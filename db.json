@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "username": "john.doe@example.com",
+      "password": "$2b$10$Q0OGh2v4.JJ6kllNeVqFZFcNjKB03M1s5y4XYpIY5uv5QZzGRdKvC",
+      "userid": "a1B2C3D4"
+    },
+    {
+      "username": "jane.smith@example.com",
+      "password": "$2b$10$1lY2w0v1QDFDgW2ydD1m8xhYfPLh9R9w55XPZ8JxgPiVu2GhQe7RW",
+      "userId": "E5F6G7H8"
+    },
+    {
+      "username": "mark.jones@example.com",
+      "password": "$2b$10$z4tQIjV4bSOlzLZbNxkQ.9U8U8ozkmYZrW2lFJ9rlvts8SH5Fz22K",
+      "userId": "I9J0K1L2"
+    },
+    {
+      "username": "lucy.brown@example.com",
+      "password": "$2b$10$C5Zt6IkFi5mF78YpI8l9BkTydS8VeQeBPR6S6EEMFuKnFdeEY9yUq",
+      "userId": "M3N4O5P6"
+    }
+  ],
+  "adds": [
+    {
+      "id": "randomUUID-0",
+      "userId": "a1B2C3D4",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSKWKd0j2zsLwG5LJ7XuaMx4rsS0AWSyb8AQbu0bhBtps4y7NCJ2-e9Rh_qT3WwncLBDRXem7jgwIlzT6SjHGiWDXXsUETQbaVftiuKjcJgfdx1gH7BLg20",
+      "name": "Camiseta",
+      "description": "Camiseta azul",
+      "price": 10,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-1",
+      "userId": "a1B2C3D4",
+      "image": "https://store.fcbarcelona.com/cdn/shop/files/FCBESSENTIALSMASC2131.jpg?v=1720609433&width=1946",
+      "name": "Camiseta negra",
+      "description": "Camiseta negra de algodón",
+      "price": 20,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-2",
+      "userId": "E5F6G7H8",
+      "image": "https://larojacamisetas.com/cdn/shop/files/descarga_2_a697694f-b5dd-4702-ac82-a12e7e2ad01d.jpg?v=1712809078&width=1445",
+      "name": "Camiseta azul de valor incalculable",
+      "description": "Camiseta de diseñador, edición limitada",
+      "price": 100,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-3",
+      "userId": "E5F6G7H8",
+      "image": "https://alapelu.com/71713-large_default/camiseta-negra-talla-m.jpg",
+      "name": "Camiseta negra",
+      "description": "Camiseta negra, talla M",
+      "price": 20,
+      "type": "buy"
+    },
+    {
+      "id": "randomUUID-4",
+      "userId": "I9J0K1L2",
+      "image": "https://i.ytimg.com/vi/afjK0F6WrSo/maxresdefault.jpg",
+      "name": "iPhone 12 Pro Max",
+      "description": "iPhone 12 Pro Max, 128 GB, color gris espacial",
+      "price": 850,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-5",
+      "userId": "I9J0K1L2",
+      "image": "https://thumb.pccomponentes.com/w-530-530/articles/25/251967/a3-7.jpg",
+      "name": "Cámara Sony Alpha 7 III",
+      "description": "Cámara mirrorless, 24.2 MP, incluye lente de 28-70mm",
+      "price": 2200,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-6",
+      "userId": "I9J0K1L2",
+      "image": "https://m.media-amazon.com/images/I/61YJXQcyt9L._AC_UF894,1000_QL80_.jpg",
+      "name": "Silla ergonómica de oficina",
+      "description": "Silla ergonómica con soporte lumbar ajustable y reposabrazos",
+      "price": 150,
+      "type": "buy"
+    },
+    {
+      "id": "randomUUID-7",
+      "userId": "M3N4O5P6",
+      "image": "https://i.blogs.es/cbbf26/macbook-air-m2-21/650_1200.jpeg",
+      "name": "MacBook Pro 13\"",
+      "description": "MacBook Pro con chip M1, 8 GB de RAM, 256 GB de almacenamiento",
+      "price": 1200,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-8",
+      "userId": "M3N4O5P6",
+      "image": "https://images.milanuncios.com/api/v1/ma-ad-media-pro/images/0a678291-81e4-42da-9e88-c5b07315d40b?rule=hw396_70",
+      "name": "Bicicleta de montaña",
+      "description": "Bicicleta de montaña, talla M, ruedas 29\"",
+      "price": 350,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-9",
+      "userId": "a1B2C3D4",
+      "image": "https://m.media-amazon.com/images/I/71xrTVx2UlL.jpg",
+      "name": "Soporte para monitores",
+      "description": "Soporte de monitor ajustable, compatible con pantallas de 13\" a 32\"",
+      "price": 80,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-10",
+      "userId": "a1B2C3D4",
+      "image": "https://img.pccomponentes.com/articles/1081/10819255/2889-vinsetto-silla-gaming-reclinable-reposacabezas-reposapies-64x67x119-127-cm-rosa-comprar.jpg",
+      "name": "Silla gamer",
+      "description": "Silla gamer ergonómica con reposapiés, ajustable, y reclinable",
+      "price": 500,
+      "type": "buy"
+    },
+    {
+      "id": "randomUUID-11",
+      "userId": "a1B2C3D4",
+      "image": "https://fotografias.larazon.es/clipping/cmsimages02/2024/11/15/C9567157-5AA1-418B-9A52-DA3D05BB440B/mejores-smartwatches-calidad-precio_69.jpg?crop=2133,1200,x372,y0&width=1280&height=720&optimize=low&format=jpg",
+      "name": "Smartwatch Garmin Fenix 6X",
+      "description": "Smartwatch de alta gama con GPS, 14 días de autonomía",
+      "price": 650,
+      "type": "sell"
+    },
+    {
+      "id": "randomUUID-12",
+      "userId": "E5F6G7H8",
+      "image": "https://media.onvelocycling.com/product/bicicleta-carretera-trek-madone-sl-6-gen-8-800x800_1mN77u9.jpg",
+      "name": "Bicicleta de carretera",
+      "description": "Bicicleta de carretera de carbono, cambios Shimano, talla L",
+      "price": 1200,
+      "type": "buy"
+    },
+    {
+      "id": "randomUUID-13",
+      "userId": "E5F6G7H8",
+      "image": "https://m.media-amazon.com/images/I/71pPd60IyeL.jpg",
+      "name": "Monitor LG 27\" 4K",
+      "description": "Monitor de 27 pulgadas, resolución 4K, panel IPS",
+      "price": 450,
+      "type": "buy"
+    },
+    {
+      "id": "randomUUID-14",
+      "userId": "M3N4O5P6",
+      "image": "https://i.blogs.es/bdfb61/captura-de-pantalla-2024-06-19-a-las-13.50.58_waifu2x_photo_noise2_scale/1366_2000.png",
+      "name": "Televisor Samsung QLED 65\"",
+      "description": "Televisor 4K, 65 pulgadas, con HDR y sonido Dolby Atmos",
+      "price": 2500,
+      "type": "sell"
+    }
+  ]
+}

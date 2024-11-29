@@ -1,17 +1,13 @@
 export function buildAdDetail(ad) {
   const createdAt = new Date(ad.updatedAt);
-
+  
   return `
     <div>
       <span>${createdAt.toLocaleDateString()}</span>
-      <p>${ad.message}</p>
+      <h2>${ad.name}</h2>
+      <p>${ad.description}</p>
+      <p><strong>Price:</strong> $${ad.price}</p>
+      <p><strong>Type:</strong> ${ad.type === 'buy' ? 'Buying' : 'Selling'}</p>
     </div>
-  `
-}
-
-export function buildDeleteButton() {
-  const removeButton = document.createElement('button');
-  removeButton.textContent = "Borrar ad";
-
-  return removeButton;
+  `;
 }

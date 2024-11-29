@@ -3,7 +3,8 @@ import { isUserLoggedIn } from "./utils/auth.js"
 
 debugger;
 if (!isUserLoggedIn()) {
-  window.location.href = "/"
+  window.location.href = "/";
+  return;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
