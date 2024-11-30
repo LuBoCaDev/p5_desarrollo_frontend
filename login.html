@@ -4,33 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./login-style.css" />
   </head>
   <body>
-    <div id="notification-container"></div>
-    <form>
-      <h2>Login</h2>
-      <label for="user-mail">Email</label>
-      <input type="mail" id="user-mail" name="user-mail" required />
+    <main>
+      <section class="form-container">
+        <div id="notification-container" class="notifications-container"></div>
+        <form>
+          <h2>Login</h2>
 
-      <br />
+          <div class="form-group">
+            <label for="user-mail">Email</label>
+            <input
+              type="email"
+              id="user-mail"
+              name="user-mail"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
 
-      <label for="password">Password</label>
-      <input
-        type="password"
-        id="password"
-        name="password"
-        required
-        minlength="4"
-      />
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+              minlength="4"
+            />
+          </div>
 
-      <br />
+          <button type="submit" class="primary-btn">Login</button>
+        </form>
 
-      <button type="submit">Login</button>
-    </form>
-
-    <p> <!-- como en muchas webs,  ofrecer un link a signup desde login -->
-      Don't have an account? <a href="signup.html">Sign up here</a>.
-    </p>
+        <p class="signup-link">
+          Don't have an account? <a href="signup.html">Sign up here</a>.
+        </p>
+      </section>
+    </main>
 
     <script type="module" src="./login.js"></script>
   </body>

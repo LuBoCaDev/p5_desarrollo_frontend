@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="spinner.css" />
-    <link rel="stylesheet" href="./notifications/notification-style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wallapop Clone</title>
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="spinner.css" />
+  <link rel="stylesheet" href="./notifications/notification-style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Wallapop Clone</h1>
+      <section id="session" class="session"></section>
+    </div>
+  </header>
 
-
-  
-  <body>
-    <section id="session"></section>
+  <main class="main-content">
     <section class="spinner hidden" role="status" aria-label="Cargando anuncios...">
       <div class="lds-ring">
         <div></div>
@@ -21,9 +27,14 @@
         <p>Cargando anuncios...</p>
       </div>
     </section>
-    <section id="notifications-container"></section>
-    <section id="ads-container"></section>
+    <section id="notifications-container" class="notifications-container"></section>
+    <section id="ads-container" class="ads-container"></section>
+  </main>
 
-    <script type="module" src="index.js"></script>
-  </body>
+  <footer class="footer">
+    <p>© 2024 Wallapop Clone. All rights deserved.</p>
+  </footer>
+
+  <script type="module" src="index.js"></script>
+</body>
 </html>

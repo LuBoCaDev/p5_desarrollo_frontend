@@ -1,10 +1,15 @@
+# Lucas Borondo Cañizares (@LuBoCaDev) - Desarrollo Web Full Stack XVII
+## Práctica 3. Modelado de datos y SQL
+
+ No he podido hacer los requisitos opcionales porque he ido muy justo de tiempo y con dificultades técnicas, que me han tenido liado hasta el último día. De igual forma, he estilado lo justo y necesario. Aun así he revisado los requisitos obligatorios y creo haber cumplido con todo lo necesario que se pide.
+
+---
+---
+
+### Checklist de cumplimiento ed requisitos pedidos en la práctica
 
 
-
-Checklist de cumplimiento ed requisitos pedidos en la práctica
-
-
-Requisito 1:
+- Requisito 1:
 1- Mostrar los detalles del anuncio: Se implementa correctamente en ads-view.js con la función buildAd(), que construye la vista del anuncio, incluyendo la imagen, nombre, descripción, precio y tipo (compra/venta). También se gestiona el enlace para acceder al detalle del anuncio.
 
 2- Gestionar los estados de la interfaz: En ads-controller.js, se gestionan todos los estados de interfaz necesarios .
@@ -14,7 +19,7 @@ Requisito 1:
 4- Botón para crear un anuncio si el usuario está logueado: Implementado en session-controller.js y se visualiza correctamente en index.js. Si el usuario está autenticado se muestra un enlace para crear un anuncio; si no está autenticado se muestran los enlaces de login y signup.
 
 
-Requisito 2:
+- Requisito 2:
 
 1- Mostrar los detalles del anuncio (foto, nombre, descripción, precio, compra/venta): implementado en ad-detail-view.js (muestra todos los detalles del anuncio: nombre, descripción, precio y tipo de compra/venta).
 
@@ -26,7 +31,7 @@ Confirmación de eliminación del anuncio: También en ad-detail-controller.js (
 
 
 
-Requisito 3:
+- Requisito 3:
 1- Formulario con los campos requeridos: En create-ad.html se piden lo scampos indicados (Foto, Nombre, Descripción, Precio, Compra/Venta).
 
 2- Envío del formulario: Los datos del formulario se envían al backend mediante create-ad-controller.js y create-ad-model.js.
@@ -36,7 +41,7 @@ Requisito 3:
 4- Acceso restringido: Si el usuario no está autenticado, se le redirige a la página de listado de anuncios. Se gestiona con create-ad.js, session-controller.js y session-view.js.
 
 
-Requisiot 4:
+- Requisiot 4:
 
 1- Formulario de login con los campos requeridos (email y contraseña): se ncuentra en login.html
 
@@ -48,7 +53,7 @@ Requisiot 4:
 
 
 
-Requisito 5:
+- Requisito 5:
 1 Formulario de registro: signup.html contiene el formulario con los campos necesarios para el registro del usuario, incluyendo el email, la contraseña y la confirmación de la contraseña.
 
 
